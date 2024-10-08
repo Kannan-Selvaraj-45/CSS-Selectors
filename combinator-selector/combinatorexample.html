@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combinator Selector</title>
+    <link rel="stylesheet" href="./combinatorexample.css" />
+  </head>
+  <body>
+    <p>
+      Usage: This explains the relationship between the following selectors.
+    </p>
+    <br />
+    <ol>
+      <li>"empty space"= descendant</li>
+      <li>= child</li>
+      <li>~ = general sibling</li>
+      <li>+ = adjacent sibling</li>
+    </ol>
+    <br />
+
+    <p>
+      Rule: All children are descendant ,but not all descendant are children
+    </p>
+    <hr />
+    <br />
+
+    <div id="container">
+      <p>This is #1</p>
+      <!-- child to div having id="container" -->
+      <p>This is #2</p>
+      <!-- child to div having id="container" -->
+      <div>
+        <!-- child to div having id="container" -->
+        <p>This is #3</p>
+        <!-- Nephew to div having id="container" -->
+      </div>
+    </div>
+    <p>This is #4</p>
+    <!-- Adjacent sibling to div having id="container" -->
+    <p>This is #5</p>
+    <!-- General sibling to div having id="container" -->
+    <p>This is #6</p>
+    <!-- General sibling to div having id="container" -->
+  </body>
+</html>

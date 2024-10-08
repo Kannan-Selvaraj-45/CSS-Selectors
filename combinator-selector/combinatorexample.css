@@ -1,0 +1,36 @@
+ol {
+  border: 1px solid;
+}
+#container {
+  border: 1px solid;
+  width: 40%;
+  text-align: center;
+}
+
+#container p {
+  background-color: yellow;
+  padding: 5px;
+}
+
+#container > p {
+  background-color: green;
+  color: #ffff;
+  padding: 5px;
+}
+
+#container ~ p {
+  background-color: red;
+  color: #000;
+  padding: 5px;
+}
+
+#container + p {
+  background-color: blue;
+  color: #ffff;
+  padding: 5px;
+}
+
+body p {
+  color: red;
+}
+

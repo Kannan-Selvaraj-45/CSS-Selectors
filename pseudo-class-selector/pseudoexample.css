@@ -1,0 +1,91 @@
+a:link {
+  color: rgb(113, 67, 183);
+  font-size: 20px;
+}
+a:hover {
+  color: brown;
+  font-size: 24px;
+}
+a:active {
+  color: rgb(255, 0, 85);
+  font-size: large;
+}
+a:visited {
+  color: rgb(135, 216, 222);
+}
+
+div {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li:not(:hover) {
+  background-color: grey;
+  font-size: 24px;
+  padding: 10px;
+}
+
+li:hover {
+  background-color: yellow;
+  font-size: 24px;
+  color: #000;
+  padding: 10px;
+}
+
+li:active {
+  background-color: blueviolet;
+}
+
+li:first-child {
+  background-color: blue;
+}
+
+li:last-child {
+  background-color: orangered;
+}
+
+li:nth-child(6) {
+  background-color: green;
+}
+
+/* li:nth-child(odd) {
+  background-color: green;
+}
+li:nth-child(even) {
+  background-color: green;
+}
+li:nth-child(3n) {
+  //every third element
+  background-color: green;
+}
+li:nth-child(4n) {
+  background-color: green;
+} 
+li:nth-child(3n+1) {
+  background-color: green;
+}   
+*/
+
+#greet {
+  margin-top: 30px;
+}
+#greet span {
+  background-color: aquamarine;
+  padding: 10px;
+  display: none;
+}
+
+#greet span:active {
+  background-color: yellow;
+}
+#greet:hover {
+  cursor: pointer;
+}
+
+#greet:hover span {
+  display: block;
+  margin-top: 10px;
+}

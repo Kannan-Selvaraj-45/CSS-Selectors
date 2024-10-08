@@ -1,0 +1,9 @@
+* {
+  margin: 0; /* Removes default margin from all elements */
+  padding: 0; /* Removes default padding from all elements */
+  box-sizing: border-box; /* Sets box-sizing for all elements */
+  font-family: Arial, sans-serif; /* Applies a default font family */
+  color: rgb(72, 210, 208);
+  font-weight: bold;
+  font-size: large;
+}
